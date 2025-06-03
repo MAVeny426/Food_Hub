@@ -1,0 +1,32 @@
+.receipecard {
+    width: 250px;
+    background-color: #d4a340;
+    border: 1px solid #ffdab9;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(255, 160, 122, 0.2);
+    overflow: hidden;
+    margin: 16px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .receipecard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(255, 160, 122, 0.3);
+  }
+  
+  .receipecard img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-bottom: 1px solid #ffd5a7;
+  }
+  
+  .receipecard h3 {
+    margin: 12px 0;
+    font-size: 20px;
+    color: #ff6347;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  

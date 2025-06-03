@@ -1,0 +1,12 @@
+.splashdiv {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/images/receipe.jpg'); /* Path relative to public folder */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+  }  
